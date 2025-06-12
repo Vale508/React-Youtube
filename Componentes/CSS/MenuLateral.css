@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu_contenedor {
+    position: fixed;
+    top: 3rem;
+    margin: 40px 20px;
+    width: 16rem;
+    height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+    
+}
+
+
+
+.menu_seccion_superior {
+    margin-bottom: 30px;
+    
+}
+
+.menu_item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.menu_item:hover {
+    background-color: rgb(235, 145, 145);
+}
+
+
+.menu_icono {
+    width: 25px;
+}
+
+
+.menu_titulo {
+    font-size: 18px;
+}
+
+
+.menu_seccion_inferior {
+    margin-top: 30px;
+}

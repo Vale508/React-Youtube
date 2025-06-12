@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barra_contenedor {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.5rem;
+    background-color: white;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.logo_youtube {
+    width: 120px;
+    height: 80px;
+}
+
+.barra_izquierda {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.icono_menu {
+    padding: 14px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.icono_menu:hover {
+    background-color: rgb(235, 145, 145);
+}
+
+.barra_centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.barra_busqueda {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.barra_busqueda:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.barra_busqueda input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 470px;
+}
+
+.barra_busqueda button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.barra_busqueda button:hover {
+    background-color: #e60000;
+}
+
+.icono_buscar {
+    width: 20px;
+    height: 20px;
+    filter: invert(1); /* hace el ícono blanco si es negro */
+}
+
+input {
+    width: 30rem;
+    font-size: 18px;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: solid 2px rgb(188, 188, 188);
+    background: transparent;
+    border-radius: 0px 30px 30px 0px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: rgb(235, 145, 145);
+}
+
+.icono_buscar {
+    padding: 10px 20px;
+}
+
+.icono_voz {
+    padding: 13px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.icono_voz:hover {
+    background-color: rgb(235, 145, 145);
+}
+
+.barra_derecha {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.icono_perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icono_notificacion {
+    padding: 13px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.icono_notificacion:hover {
+    background-color: rgb(235, 145, 145);
+}
